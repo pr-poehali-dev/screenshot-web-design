@@ -200,7 +200,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="news" className="py-24 bg-background">
+      <section id="news" className="py-24 bg-background opacity-50 pointer-events-none">
         <div className="container mx-auto px-4 lg:px-8">
           <h2 className="text-4xl md:text-5xl font-heading font-bold mb-4 text-center">
             Новости
@@ -209,11 +209,11 @@ const Index = () => {
             Последние обновления из студии
           </p>
 
-          <div className="max-w-4xl mx-auto space-y-6">
+          <div className="max-w-4xl mx-auto space-y-6 blur-sm">
             {news.map((item, index) => (
               <Card
                 key={item.id}
-                className="bg-card border-border hover:border-primary transition-all duration-300 hover:shadow-xl hover:shadow-primary/10 animate-fade-in"
+                className="bg-card border-border animate-fade-in"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <CardContent className="p-6 md:p-8">
