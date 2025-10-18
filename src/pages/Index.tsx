@@ -255,7 +255,7 @@ const Index = () => {
             </div>
             
             <p className="text-muted-foreground text-sm">
-              © 2024 Invictus Studio. Все права защищены.
+              © 2025 Invictus Studio. Все права защищены.
             </p>
             
             <div className="flex gap-4">
