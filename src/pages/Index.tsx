@@ -126,10 +126,6 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background" />
         
         <div className="relative z-10 container mx-auto px-4 text-center animate-fade-in">
-          <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Независимая игровая студия, создающая незабываемые приключения для мобильных платформ
-          </p>
-
           <div className="flex flex-wrap items-center justify-center gap-4">
             <Button
               size="lg"
