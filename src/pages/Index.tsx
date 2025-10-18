@@ -13,20 +13,6 @@ const Index = () => {
       description: "Исследуйте уютный мир пригородных улиц в этой увлекательной игре",
       image: "https://cdn.poehali.dev/projects/b9043a8d-e09b-44df-81d4-3655d9e3faae/files/0e6801d2-40c2-453d-aafb-34fdb5c70542.jpg",
       platforms: ["youtube", "google-play", "app-store"]
-    },
-    {
-      id: 2,
-      title: "Temple Treasure Quest",
-      description: "Отправляйтесь в захватывающее приключение за древними сокровищами",
-      image: "https://cdn.poehali.dev/projects/b9043a8d-e09b-44df-81d4-3655d9e3faae/files/c7a07614-07eb-456c-9e96-9d452d9f0337.jpg",
-      platforms: ["youtube", "google-play"]
-    },
-    {
-      id: 3,
-      title: "Neon Racing",
-      description: "Гоночный экшен в футуристическом неоновом городе",
-      image: "https://cdn.poehali.dev/projects/b9043a8d-e09b-44df-81d4-3655d9e3faae/files/07c59901-c200-4ce5-90c0-d62e346936c7.jpg",
-      platforms: ["youtube", "google-play", "app-store"]
     }
   ];
 
