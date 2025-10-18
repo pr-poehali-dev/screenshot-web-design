@@ -150,6 +150,7 @@ const Index = () => {
               size="lg"
               variant="outline"
               className="border-2 border-accent text-accent hover:bg-accent hover:text-background rounded-full px-8 py-6 text-lg font-semibold transition-all hover:scale-105"
+              onClick={() => window.open('https://t.me/angryneighborfanmade', '_blank')}
             >
               <Icon name="Send" className="w-5 h-5 mr-2" />
               TELEGRAM
