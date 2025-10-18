@@ -118,7 +118,7 @@ const Index = () => {
         id="home"
         className="relative h-screen flex items-center justify-center overflow-hidden"
         style={{
-          backgroundImage: `url(https://cdn.poehali.dev/projects/b9043a8d-e09b-44df-81d4-3655d9e3faae/files/0e6801d2-40c2-453d-aafb-34fdb5c70542.jpg)`,
+          backgroundImage: `url(https://cdn.poehali.dev/files/b3648d2e-fa1c-4a8b-87ca-fd261e2ec813.jpg)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -126,9 +126,6 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background" />
         
         <div className="relative z-10 container mx-auto px-4 text-center animate-fade-in">
-          <h1 className="text-5xl md:text-7xl font-heading font-bold mb-6 bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
-            Создаём миры игр
-          </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-2xl mx-auto">
             Независимая игровая студия, создающая незабываемые приключения для мобильных платформ
           </p>
@@ -154,8 +151,8 @@ const Index = () => {
               variant="outline"
               className="border-2 border-accent text-accent hover:bg-accent hover:text-background rounded-full px-8 py-6 text-lg font-semibold transition-all hover:scale-105"
             >
-              <Icon name="Apple" className="w-5 h-5 mr-2" />
-              APP STORE
+              <Icon name="Send" className="w-5 h-5 mr-2" />
+              TELEGRAM
             </Button>
           </div>
         </div>
