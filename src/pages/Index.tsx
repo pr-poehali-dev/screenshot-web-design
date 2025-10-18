@@ -108,7 +108,7 @@ const Index = () => {
               variant="outline"
               className="hidden md:flex rounded-full border-2 border-primary text-primary hover:bg-primary hover:text-background font-medium px-6"
             >
-              TESTING
+              SUPPORT
             </Button>
           </div>
         </div>
