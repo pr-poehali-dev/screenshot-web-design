@@ -140,9 +140,10 @@ const Index = () => {
               size="lg"
               variant="outline"
               className="border-2 border-primary text-primary hover:bg-primary hover:text-background rounded-full px-8 py-6 text-lg font-semibold transition-all hover:scale-105"
+              disabled
             >
               <Icon name="Play" className="w-5 h-5 mr-2" />
-              GOOGLE PLAY
+              СКОРО
             </Button>
             <Button
               size="lg"
