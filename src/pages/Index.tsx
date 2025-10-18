@@ -106,7 +106,7 @@ const Index = () => {
 
             <Button
               variant="outline"
-              className="hidden md:flex rounded-full border-2 border-green-700 text-green-700 hover:bg-green-700 hover:text-background font-medium px-6"
+              className="hidden md:flex rounded-full border-2 border-green-700 text-foreground hover:bg-green-700 hover:text-background font-medium px-6"
               onClick={() => window.location.href = 'mailto:itsminefull@gmail.com?subject=Support%20Request&body=Здравствуйте!%20Хочу%20связаться%20по%20вопросу%20поддержки.'}
             >
               SUPPORT
