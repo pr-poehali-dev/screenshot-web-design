@@ -12,7 +12,7 @@ const Index = () => {
       title: "Angry Neighbor 4.0A",
       description: "Angry Neighbor 4.0A — фанатская версия. Исследуй расширенный дом с чердаком и подвалом, избегай умного и непредсказуемого соседа, находи секретные предметы и решай, каким будет твой финал. Новые механики, интерактивные объекты и скрытые тайны делают игру ещё более напряжённой и захватывающей.",
       image: "https://cdn.poehali.dev/files/3ef8e491-9ca7-4e8c-8865-1f2544ac4072.jpg",
-      platforms: ["youtube", "google-play", "app-store"]
+      platforms: ["google-play"]
     }
   ];
 
