@@ -259,14 +259,11 @@ const Index = () => {
             </p>
             
             <div className="flex gap-4">
-              <Button size="icon" variant="ghost" className="hover:text-primary">
+              <Button size="icon" variant="ghost" className="hover:text-primary" onClick={() => window.open('https://www.youtube.com/@invictusstudio', '_blank')}>
                 <Icon name="Youtube" className="w-5 h-5" />
               </Button>
               <Button size="icon" variant="ghost" className="hover:text-primary">
-                <Icon name="Twitter" className="w-5 h-5" />
-              </Button>
-              <Button size="icon" variant="ghost" className="hover:text-primary">
-                <Icon name="Instagram" className="w-5 h-5" />
+                <Icon name="Send" className="w-5 h-5" />
               </Button>
             </div>
           </div>
