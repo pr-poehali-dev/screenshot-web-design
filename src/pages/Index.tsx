@@ -9,9 +9,9 @@ const Index = () => {
   const games = [
     {
       id: 1,
-      title: "Neighborhood Adventure",
-      description: "Исследуйте уютный мир пригородных улиц в этой увлекательной игре",
-      image: "https://cdn.poehali.dev/projects/b9043a8d-e09b-44df-81d4-3655d9e3faae/files/0e6801d2-40c2-453d-aafb-34fdb5c70542.jpg",
+      title: "Angry Neighbor 4.0A",
+      description: "Angry Neighbor 4.0A — фанатская версия. Исследуй расширенный дом с чердаком и подвалом, избегай умного и непредсказуемого соседа, находи секретные предметы и решай, каким будет твой финал. Новые механики, интерактивные объекты и скрытые тайны делают игру ещё более напряжённой и захватывающей.",
+      image: "https://cdn.poehali.dev/files/3ef8e491-9ca7-4e8c-8865-1f2544ac4072.jpg",
       platforms: ["youtube", "google-play", "app-store"]
     }
   ];
