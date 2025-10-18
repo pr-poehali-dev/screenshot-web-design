@@ -63,9 +63,7 @@ const Index = () => {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
-                <Icon name="Gamepad2" className="w-6 h-6 text-background" />
-              </div>
+              <img src="https://cdn.poehali.dev/files/387ac6a1-fd8b-4a29-bc44-a9f7ba507eea.png" alt="Invictus Studio" className="w-10 h-10" />
               <span className="text-2xl font-heading font-bold tracking-tight">
                 INVICTUS STUDIO
               </span>
