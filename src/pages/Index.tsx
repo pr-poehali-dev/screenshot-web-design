@@ -125,7 +125,7 @@ const Index = () => {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background" />
         
-        <div className="relative z-10 container mx-auto px-4 flex items-center justify-center h-full animate-fade-in">
+        <div className="relative z-10 container mx-auto px-4 flex items-end justify-center h-full pb-16 animate-fade-in">
           <div className="flex flex-wrap items-center justify-center gap-4">
             <Button
               size="lg"
