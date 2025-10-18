@@ -106,7 +106,7 @@ const Index = () => {
 
             <Button
               variant="outline"
-              className="hidden md:flex rounded-full border-2 border-primary text-primary hover:bg-primary hover:text-background font-medium px-6"
+              className="hidden md:flex rounded-full border-2 border-green-700 text-green-700 hover:bg-green-700 hover:text-background font-medium px-6"
             >
               SUPPORT
             </Button>
