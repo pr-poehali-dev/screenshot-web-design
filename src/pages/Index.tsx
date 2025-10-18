@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import Icon from "@/components/ui/icon";
+import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { useState } from "react";
 
 const Index = () => {
@@ -76,16 +77,19 @@ const Index = () => {
               >
                 GAMES
               </button>
-              <button
-                onClick={() => scrollToSection("news")}
-                className={`text-sm font-medium transition-colors relative py-2 ${
-                  activeSection === "news"
-                    ? "text-foreground after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-primary"
-                    : "text-muted-foreground hover:text-foreground"
-                }`}
-              >
-                NEWS
-              </button>
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <button
+                    className="text-sm font-medium text-muted-foreground cursor-not-allowed opacity-50 relative py-2"
+                    disabled
+                  >
+                    NEWS
+                  </button>
+                </TooltipTrigger>
+                <TooltipContent>
+                  <p>Новости пока в разработке</p>
+                </TooltipContent>
+              </Tooltip>
             </div>
 
             <Button
